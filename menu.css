@@ -1,0 +1,42 @@
+button {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4e4caf;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+.page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: #ffffff;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+body {
+  background: #525cb8;
+  background: rgb(111, 144, 194);
+  background: linear-gradient(
+    90deg,
+    rgb(111, 151, 194) 0%,
+    rgb(82, 121, 184) 50%
+  );
+  font-family: sans-serif;
+}

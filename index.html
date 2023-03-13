@@ -2,35 +2,24 @@
 <html lang="esp">
   <head>
     <meta charset="UTF-8" />
-    <title>Residencia</title>
+    <title>Inicio de sesion</title>
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <!-- html -->
+    <!-- iniciar sesion y buscar numero de serie -->
     <div class="login-page">
       <div class="form">
-        <form class="register-form">
-          <input type="text" placeholder="nombre" />
-          <input type="password" placeholder="contraseña" />
-          <input type="text" placeholder="correo electronico" />
-          <button>Crear</button>
-          <p class="message">
-            Registro para admins
-            <a href="#">Iniciar sesion</a>
-          </p>
-        </form>
         <form class="login-form">
-          <input type="text" placeholder="admin" />
-          <input type="password" placeholder="contraseña" />
-          <button>Iniciar Sesion</button>
-          <p class="message">
-            Registro para admins <a href="#">Crear cuenta</a>
-          </p>
+          <input type="text" placeholder="Admin" required />
+          <input type="password" placeholder="Contraseña" required />
+          <button>Iniciar sesion</button>
+          &nbsp;
+          <input type="number" placeholder="Numero de serie" required />
+          <button>Buscar</button>
         </form>
       </div>
     </div>
-    <!-- js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="index.js"></script>
+
+    <!-- librerias y js -->
   </body>
 </html>
